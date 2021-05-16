@@ -1,0 +1,220 @@
+@font-face {
+    font-family: "montserrat";
+    src: url('../assets/fonts/Montserrat/Montserrat-Regular.ttf');
+}
+@font-face {
+    font-family: 'montserrat-bold';
+    src: url('../assets/fonts/Montserrat/Montserrat-Bold.ttf');
+}
+body{
+    font-family: 'montserrat';
+    overflow-x: hidden;
+}
+#header{
+    background-color: transparent;
+    transition: 0.2s;
+}
+.nav-link{
+    color: #fff;
+}
+.nav-link:hover{
+    color: #ff8303;
+}
+.main-header{
+    background-image: url('../assets/images/bg.jpg');
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    width: 100%;
+    filter: grayscale(100%);
+}
+.overlay{
+    background-color: rgba(45, 45, 45, 0.6);
+    width: 100%;
+    height: 700px;
+}
+
+.textbook{
+    padding-top: 15%;
+    height: 600px;
+    text-align: center;
+    background-image: url('../assets/images/text-book-1.png');
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.textbook-header, .streams-header,.food-books-head{
+    color: #ff8303;
+    font-family: 'montserrat-bold';
+    letter-spacing: 1px;
+}
+.textbook-data{
+    margin: 2% 10% 2% 10%; /*top right bottom left*/
+    letter-spacing: 1px;
+}
+.overlay-text{
+    padding-top: 20%;
+}
+.overlay-head{
+    text-align: center;
+    color: #fff;
+    font-family: 'montserrat-bold';
+    letter-spacing: 1px;
+}
+.overlay-data{
+    text-align: center;
+    color: #fff;
+    font-size: 25px;
+    letter-spacing: 1px;
+}
+.vision-data{
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+.circle{
+    width: 350px;
+    height: 350px;
+    background-color: #ff8303;
+    border-radius: 50%;
+    margin-left: 25%;
+}
+.circle-text{
+    text-align: center;
+    color: #fff;
+    padding: 35% 20% 20% 20%;
+    font-size: 25px;
+    letter-spacing: 1px;
+}
+.vision-para{
+    margin: 20% 5% 0% 15%;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+.food-books-data{
+    padding: 10% 0% 10% 0%;
+}
+.food-books{
+    background-color: #f4f4f4;
+}
+.food-books-head{
+    margin: 10% 5% 0% 15%;
+}
+.food-books-para{
+    margin: 5% 5% 0% 15%;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+.inc-img{
+    width: 550px;
+    height: 350px;
+    filter: grayscale(100%);
+}
+.national-award-head{
+    color: #ff8303;
+    font-family: 'montserrat-bold';
+    letter-spacing: 1px;
+    margin: 10% 5% 0% 10%;
+}
+.national-award-para{
+    margin: 5% 15% 0% 10%;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+.leadership-hub{
+    background-image: url('../assets/images/leadership.jpeg');
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    filter: grayscale(100%);
+}
+.leadership-overlay{
+    width: 100%;
+    height: 600px;
+    background-color: rgba(45, 45, 45, 0.7);
+}
+.leadership-overlay-text{
+    text-align: center;
+    padding: 15% 5% 0% 5%;
+    color: #fff;
+}
+.leadership-head{
+    font-family: 'montserrat-bold';
+    letter-spacing: 1px;
+}
+.leadership-data{
+    font-size: 15px;
+    letter-spacing: 1px;
+
+    margin: 5% 2% 0% 2%;
+}
+.covid{
+    background-image: url('../assets/images/covid.png');
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    text-align: center;   
+    /* filter: grayscale(100%);  */
+}
+.overlay-covid{
+    width: 100%;
+    height: 600px;
+    background-color: rgba(255, 255, 255, 0.8);
+    
+}
+.covid-head{
+    padding-top: 10%;
+    font-family: 'montserrat-bold';
+    letter-spacing: 1px;
+    color: #ff8303;
+}
+.covid-data{
+    margin: 3% 7% 0% 7%;
+    letter-spacing: 1px;
+}
+.footer{
+    height: 350px;
+    background-color: #000;
+}
+.touch{
+    text-align: center;
+    padding: 5% 25% 2% 25%;
+}
+.touch-head{
+    color: #fff;
+    margin-bottom: 5%;
+    font-family: 'montserrat-bold';
+}
+.subscribe{
+    background-color: #ff8303;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    color: #fff;
+}
+.input-mail{
+    background-color: rgba(45, 45, 45, 0.6);
+    border: none;
+    border-radius: 25px;
+}
+.input-mail:focus{
+    background-color: rgba(45, 45, 45, 0.6);
+    color: #fff;
+}
+
+.social-ul{
+    display: inline-flex;
+    list-style-type: none;
+}
+.social-li{
+    margin-left: 5px;
+}
+.social-icons{
+    margin-top: 5%;
+    margin-left: 21%;
+    width: 40px;
+    height: 40px;
+}
